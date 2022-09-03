@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sample/Sign%20in/sign_in.dart';
+
+import 'Home page/home_page.dart';
+import 'Login Page/Screens/Welcome/welcome_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +31,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePage extends State<MyHomePage>{
   @override
   Widget build(BuildContext context) {
-    return SignIn();
+   // return SignIn();
+    return WelcomeScreen();
   }
 }
 

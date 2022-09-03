@@ -5,12 +5,12 @@ import 'package:sample/Cart%20page/purch_cart.dart';
 //import 'package:sample/QR_scan/qr_scan.dart';
 
 
-class SignIn extends StatefulWidget{
+class Homepage extends StatefulWidget{
   @override
-  State<StatefulWidget> createState() => _SignIn();
+  State<StatefulWidget> createState() => _Homepage();
 }
 
-class _SignIn  extends State<SignIn>{
+class _Homepage  extends State<Homepage>{
   String qrCodeResult = "Not Yet Scanned";
   @override
   Widget build(BuildContext context) {
